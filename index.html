@@ -11,8 +11,20 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});
     </script>
+
+    <style>
+      #header{
+        text-align: center;
+      }
+    </style>
   </head>
+  
   <body>
+    <div id="header">
+      <h1>Akash Kumar</h1>
+      <h2>Game Programming Project 2 - Roller Madness</h2>
+    </div>
+    
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
